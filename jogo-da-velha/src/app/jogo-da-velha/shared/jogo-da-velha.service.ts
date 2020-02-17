@@ -128,6 +128,7 @@ export class JogoDaVelhaService {
       this._jogador = 0;
       this._showFinal = true;
     }
+    
   }
 
   /**
