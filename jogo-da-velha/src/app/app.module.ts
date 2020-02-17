@@ -12,7 +12,9 @@ import { JogoDaVelhaModule } from './jogo-da-velha';
     BrowserModule,
     JogoDaVelhaModule
   ],
-  providers: [],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
