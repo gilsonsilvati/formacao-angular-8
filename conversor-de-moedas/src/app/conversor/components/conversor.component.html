@@ -1,1 +1,41 @@
-<p>conversor works!</p>
+<br />
+<div class="alert alert-danger" role="alert">
+	Erro obtendo dados. Tente novamente.
+</div>
+
+<div class="card border-info">
+	<div class="card-header text-white bg-info">
+		Selecione a moeda a ser convertida
+    </div>
+
+	<div class="card-body">
+	  <form class="form-inline">
+		<input type="text" name="valor"
+			class="form-control text-right"
+			placeholder="0" 
+            required>
+            
+		<select 
+			name="moedaDe"
+			class="form-control ml-2"
+			required>
+			<option>
+			</option>
+        </select>
+        
+        <span class="fa fa-long-arrow-right ml-1 mr-1" aria-hidden="true"></span>
+        
+		<select
+			name="moedaPara"
+			class="form-control"
+			required>
+			<option>
+
+			</option>
+        </select>
+        
+		<input type="submit" value="Converter"
+			class="btn btn-outline-success ml-2">
+	  </form>
+	 </div>
+</div>

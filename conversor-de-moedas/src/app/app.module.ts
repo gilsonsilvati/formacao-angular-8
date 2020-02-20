@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
-
 import { AppComponent } from './app.component';
 import { ConversorModule } from './conversor';
 
@@ -16,7 +14,6 @@ import { ConversorModule } from './conversor';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AngularFontAwesomeModule,
     ConversorModule
   ],
   providers: [],
