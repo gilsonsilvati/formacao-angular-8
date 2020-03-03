@@ -4,6 +4,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DashboardModule } from './dashboard';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     AngularFontAwesomeModule,
+    DashboardModule,
     
     AppRoutingModule
   ],
